@@ -1,0 +1,30 @@
+@import "../../../App.scss";
+.button {
+  background-color: $color--primary;
+  width: 246px;
+  height: 50px;
+  border-radius: 8px;
+  border: 0;
+  color: $color--secondary;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  &__icon {
+    margin-right: 15px;
+    font-weight: 100;
+    animation-name: icon-animation;
+    animation-iteration-count: infinite;
+    animation-duration: 0.5s;
+  }
+  @keyframes icon-animation {
+    from {
+      color: $color--secondary;
+    }
+    to {
+      color: yellow;
+    }
+  }
+}

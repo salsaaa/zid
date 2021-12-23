@@ -1,0 +1,49 @@
+@import "../../../App.scss";
+.app-card {
+  display: flex;
+  flex-direction: row;
+  padding: 28px;
+  border-radius: 12px;
+  background: #f7f7f7;
+  &__left {
+    margin-right: 12px;
+    &__body {
+      text-align: right;
+      font-size: 10px;
+      margin: 8px 0 16px 0;
+      display: flex;
+      .gray {
+        color: #bcbcbc;
+      }
+    }
+    &__top {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 60px;
+      align-items: self-end;
+      .title {
+        color: $color--primary;
+        font-weight: 600;
+      }
+      .icon {
+        color: #ffd12f;
+        display: inline-flex;
+      }
+      .green {
+        color: green;
+        font-size: 14px;
+        display: flex;
+        align-self: self-end;
+      }
+    }
+    &__bottom {
+      font-size: 10px;
+      line-height: 24px;
+      font-weight: 400;
+      text-align: right;
+    }
+  }
+  &__right {
+  }
+}

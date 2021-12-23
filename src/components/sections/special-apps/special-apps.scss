@@ -1,0 +1,21 @@
+.special-apps {
+  text-align: center;
+  &__title {
+    font-size: 26px;
+    font-weight: 600;
+  }
+  &__sub-title {
+    font-size: 19px;
+    margin: 16px;
+  }
+  &__cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 80px;
+    margin: 50px;
+  }
+  &__btn {
+    margin-bottom: 100px;
+  }
+}

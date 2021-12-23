@@ -1,0 +1,16 @@
+@import "../../../App.scss";
+.about {
+  text-align: center;
+  padding: 50px;
+  &__title {
+    font-size: 37px;
+    margin-bottom: 35px;
+    color: $color--primary;
+    font-weight: 700;
+  }
+  &__sub-title {
+    padding: 0 370px;
+    margin-bottom: 35px;
+    font-size: 22px;
+  }
+}

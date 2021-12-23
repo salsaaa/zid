@@ -1,0 +1,50 @@
+@import "../../../App.scss";
+.benefits {
+  display: flex;
+  flex-direction: row;
+  background-color: #fafafc;
+  justify-content: space-between;
+  padding: 28px;
+  margin-bottom: 150px;
+  &__right {
+    &__title {
+      color: $color--primary;
+      margin: 45px 0 29px 0;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 24px;
+    }
+    &__sub-title {
+      margin-bottom: 6px;
+    }
+    &__item {
+      font-size: 14px;
+      margin: 15px 0;
+      margin: 34px 0;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      .icon {
+        margin-left: 16px;
+        width: 45px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        border-radius: 50%;
+        box-shadow: 0 2px 5px 0 #644276, 0 0px 0px 0 #644276;
+        img {
+          width: 21px;
+        }
+      }
+    }
+    &__btn {
+      margin-bottom: 50px;
+    }
+  }
+  &__left {
+    position: absolute;
+    right: 188px;
+  }
+}
